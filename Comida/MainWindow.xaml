@@ -137,6 +137,8 @@
                 </DockPanel>
             </Border>
         </DataTemplate>
+        
+        <!--#endregion Plantilla Items-->
         <ControlTemplate x:Key="GroupBoxControlTemplate" TargetType="{x:Type GroupBox}">
             <Grid SnapsToDevicePixels="True">
                 <Grid.ColumnDefinitions>
@@ -170,8 +172,6 @@
                 <ContentPresenter Grid.ColumnSpan="2" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" Grid.Column="1" ContentStringFormat="{TemplateBinding ContentStringFormat}" Margin="{TemplateBinding Padding}" Grid.Row="2" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
             </Grid>
         </ControlTemplate>
-        <!--#endregion Plantilla Items-->
-
     </Window.Resources>
     <Border Background="White" Style="{StaticResource borde}">
         <Grid>

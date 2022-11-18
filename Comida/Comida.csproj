@@ -34,6 +34,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>assets\fruit_food_apple.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -69,6 +72,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MainWindowVM.cs" />
+    <Compile Include="Plato.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -93,6 +98,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="assets\alergenos\gluten.png" />
+    <Resource Include="assets\alergenos\milk.png" />
+    <Resource Include="assets\alergenos\soybean.png" />
+    <Resource Include="assets\alergenos\sulfide.png" />
+    <Resource Include="assets\fruit_food_apple.ico" />
+    <Resource Include="assets\nacionalidades\china.png" />
+    <Resource Include="assets\nacionalidades\mexico.png" />
+    <Resource Include="assets\nacionalidades\united_states.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

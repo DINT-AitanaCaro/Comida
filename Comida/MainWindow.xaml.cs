@@ -20,9 +20,17 @@ namespace Comida
     /// </summary>
     public partial class MainWindow : Window
     {
+        MainWindowVM vm;
         public MainWindow()
         {
             InitializeComponent();
+            vm = new MainWindowVM();
+            DataContext = vm;
+        }
+
+        private void LimpiarButton_Click(object sender, RoutedEventArgs e)
+        {
+            vm.LimpiaFormulario();
         }
     }
 }

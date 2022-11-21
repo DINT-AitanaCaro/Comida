@@ -279,7 +279,7 @@
                     <Setter Property="BorderBrush" TargetName="border" Value="#FF569DE5"/>
                     <Setter Property="Effect">
                         <Setter.Value>
-                            <DropShadowEffect BlurRadius="15" ShadowDepth="0"></DropShadowEffect>
+                            <DropShadowEffect BlurRadius="15" ShadowDepth="0" Color="CadetBlue"></DropShadowEffect>
                         </Setter.Value>
                     </Setter>
                 </Trigger>
